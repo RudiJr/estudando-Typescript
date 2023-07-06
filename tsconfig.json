@@ -1,0 +1,8 @@
+// The JSON code is configuring the compiler options for a TypeScript project.
+{
+    "compilerOptions": {
+        "outDir": "dist/js",
+        "target": "ES6"
+    },
+    "include": ["app/**/*"]
+}
