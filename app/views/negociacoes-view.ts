@@ -1,3 +1,5 @@
+import { Negociacoes } from "../models/negociacoes.js";
+
 export class NegociacoesView {
 
     private elemento: HTMLElement;
@@ -20,7 +22,7 @@ export class NegociacoesView {
         `;
     };
 
-    update(): void { // render the template in the element catched by constructor 
+    update(model: Negociacoes): void { // render the template in the element catched by constructor 
         this.elemento.innerHTML = this.template();
     };
 };
